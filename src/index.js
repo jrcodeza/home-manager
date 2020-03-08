@@ -11,7 +11,7 @@ const init = async () => {
 	console.log('Server running on %s', server.info.uri);
 };
 
-function initializeServer(port = 80, address = '0.0.0.0') {
+function initializeServer(port = 8080, address = '0.0.0.0') {
 	return Hapi.server({
 		port: port,
 		host: address,
