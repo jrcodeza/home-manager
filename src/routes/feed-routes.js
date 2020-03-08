@@ -28,7 +28,7 @@ module.exports = [
 			if (request.params.userId) {
 				filter.userId = request.params.userId;
 			}
-			return Feed.find(filter);
+			return Feed.find(filter).sort('-date');
 		}
 	}
 ];
