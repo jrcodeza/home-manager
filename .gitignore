@@ -1,3 +1,8 @@
+/node_modules/
+/.idea/$PRODUCT_WORKSPACE_FILE$
+/.idea/home-manager.iml
+/.idea/misc.xml
+/.idea/modules.xml
 # Logs
 logs
 *.log
