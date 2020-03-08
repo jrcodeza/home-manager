@@ -4,7 +4,7 @@ const feedRoutes = require('./routes/feed-routes');
 
 const init = async () => {
 
-	const server = initializeServer(process.env.APP_PORT, process.env.APP_ADDRESS);
+	const server = initializeServer(process.env.PORT, process.env.APP_ADDRESS);
 	server.route(feedRoutes);
 
 	await server.start();
